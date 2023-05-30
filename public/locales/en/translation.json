@@ -1,0 +1,31 @@
+{
+  "home-link": "Home",
+  "projects-link": "Projects",
+  "protfolio": "Protfolio",
+  "begin": "Dmytro Svyatodukh",
+  "Frontend isn't the work.": "Frontend isn't the work.",
+  "About Me": "About Me",
+  "Hello, I am ": "Hello, I am ",
+  "My Skills": "My Skills",
+  "Projects": "Projects",
+  "demo": "Demo",
+  "project-page-descript": "On this page you can see my projects which I've been working recently",
+  "homepage-description": "I'm Dmytro Svyatodukh and I thought become frontend developer, because isn't boring!",
+  "projects-description": "Look at here! How you see, I really tried when I was doing it!",
+  "hello": "When I was a teenager, I dreamed to being a Ukrainian punk rock star. I dedicated many years to music, and now it's a big part of my life. Since 2015, I worked in a company where I was markup developer/HTML coder almost 7 years. I did everything related to it. I had an experience with different CMS: modx, wordpress and few times was magento 1.9/2. In 2022 when became the War, the company closed and I started to learn in order to will be better. That's really fascinating journey.",
+  "oops": "Oops! You seem to be lost =)",
+  "sec": "{{second}}s",
+  "after": "After",
+  "after-end": "you will be redirect to Homepage! Bye!",
+  "list-projects": [
+    {
+      "title": "Calculate Price of Service",
+      "description": "In this project I wanted to make functionality of calculating price per repair for potential customer where him will see how much it costs, and can download PDF file with information about it."
+    },
+    {
+      "title": "My Portfolio (current app)",
+      "description": "This is my first project which created with react js. For that I decided to create simple project where I could used next tools: react router, multi language and instruments for SEO."
+    }
+  ],
+  "loading": "Loading ..."
+}

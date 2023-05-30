@@ -1,0 +1,18 @@
+.lng {
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.nav-link {
+  color: #fff;
+  font-size: 15px;
+}
+.nav-link:hover,
+.nav-link.active {
+  color: #ffc900;
+  text-decoration: underline !important;
+}
+.navbar-nav .nav-link {
+  text-transform: uppercase;
+}

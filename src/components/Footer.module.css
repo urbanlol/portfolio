@@ -1,0 +1,19 @@
+/*:::::::::::::::::::::::::::::::::::
+        Footer Area
+:::::::::::::::::::::::::::::::::::*/
+
+.footerArea {
+  padding: 30px;
+  background-color: #171717;
+  border-bottom: 5px solid #ffc900;
+}
+
+.copyrightTextA {
+  color: #eee;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.copyrightTextA:hover {
+  color: #ffc900;
+}
