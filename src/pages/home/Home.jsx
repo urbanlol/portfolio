@@ -25,7 +25,7 @@ function Home() {
   return (
     <>
       <Helmet htmlAttributes={{ lang: i18n.resolvedLanguage }}>
-        <title>SVTDH - Homepage</title>
+        <title>SVTDH - {t('home-link')}</title>
         <meta name="description" content={t('homepage-description')} />
         <link rel="canonical" href={window.location.href} />
         <meta name="robots" content="noindex, nofollow" />

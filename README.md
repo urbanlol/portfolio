@@ -1,6 +1,11 @@
-# Getting Started with Create React App
+# SVTDH - Portfolio
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+
+This is my first project which created with react js. For that I decided to create simple project where I could used next tools: react router, multi language and instruments for SEO.
+
+Tools: HTML5, CSS3, JAVASCRIPT, REACT JS
 
 ## Available Scripts
 
