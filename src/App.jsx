@@ -15,7 +15,7 @@ function App() {
     <Router>
       <ScrollToTop />
       <HelmetProvider>
-        <Preloader />
+        <Preloader delayTimeHide={300}/>
         <Header />
         <Routes>
           <Route path='/' element={<Home />} />

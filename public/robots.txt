@@ -1,4 +1,6 @@
 # https://www.robotstxt.org/robotstxt.html
 User-agent: *
-Allow: /
-Sitemap: http://localhost:3000/sitemap.xml
+Disallow: /
+Disallow: /projects
+
+Sitemap: https://portfolio-sigma-woad-26.vercel.app/sitemap.xml
