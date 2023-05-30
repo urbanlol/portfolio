@@ -63,6 +63,7 @@ function Home() {
                     href="https://www.facebook.com/dmytro.svyatodukh"
                     alt="SVTDH - Facebook"
                     id="facebook"
+                    aria-label="Dmitro Syatodukh - Facebook link"
                   >
                     <i className="fab fa-facebook-f"></i>
                   </a>
@@ -72,6 +73,7 @@ function Home() {
                     href="https://www.instagram.com/dmytro.svyatodukh"
                     alt="SVTDH - Instagram"
                     id="instagram"
+                    aria-label="Dmitro Syatodukh - Instagram link"
                   >
                     <i className="fab fa-instagram"></i>
                   </a>
@@ -81,6 +83,7 @@ function Home() {
                     href="https://github.com/urbanlol"
                     alt="SVTDH - GitHub"
                     id="github"
+                    aria-label="Dmitro Syatodukh - GitHub link"
                   >
                     <i className="fab fa-github"></i>
                   </a>
@@ -96,27 +99,44 @@ function Home() {
                 <p>{t('hello')}</p>
 
                 <h5>{t('My Skills')}</h5>
-                <div id="skills" className="skill-area d-flex flex-wrap justify-content-sm-center justify-content-md-start justify-content-center">
+                <div
+                  id="skills"
+                  className="skill-area d-flex flex-wrap justify-content-sm-center justify-content-md-start justify-content-center"
+                >
                   <div className="skillbar-title">
-                    <span>html 5 <i className="fab fa-html5"></i></span>
+                    <span>
+                      html 5 <i className="fab fa-html5"></i>
+                    </span>
                   </div>
                   <div className="skillbar-title">
-                    <span>css3 <i className="fab fa-css3"></i></span>
+                    <span>
+                      css3 <i className="fab fa-css3"></i>
+                    </span>
                   </div>
                   <div className="skillbar-title">
-                    <span>javascript <i className="fab fa-js-square"></i></span>
+                    <span>
+                      javascript <i className="fab fa-js-square"></i>
+                    </span>
                   </div>
                   <div className="skillbar-title">
-                    <span>react js <i className="fab fa-react"></i></span>
+                    <span>
+                      react js <i className="fab fa-react"></i>
+                    </span>
                   </div>
                   <div className="skillbar-title">
-                    <span>github <i className="fab fa-github"></i></span>
+                    <span>
+                      github <i className="fab fa-github"></i>
+                    </span>
                   </div>
                   <div className="skillbar-title">
-                    <span>wordpress <i className="fab fa-wordpress"></i></span>
+                    <span>
+                      wordpress <i className="fab fa-wordpress"></i>
+                    </span>
                   </div>
                   <div className="skillbar-title">
-                    <span>modx <i className="fab fa-modx"></i></span>
+                    <span>
+                      modx <i className="fab fa-modx"></i>
+                    </span>
                   </div>
                   <div className="skillbar-title">
                     <span>photoshop</span>

@@ -11,7 +11,7 @@ function Footer() {
                 <p className="text-white">
                   &copy; 2015 -{' '}
                   <span id="currentYear">{new Date().getFullYear()}</span>.{' '}
-                  Dmyro Svyatodukh. Fronend Developer
+                  Dmyro Svyatodukh. Frontend Developer
                 </p>
               </div>
             </div>

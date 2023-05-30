@@ -112,6 +112,7 @@ function Header() {
                       onClick={() => changeLanguage(code)}
                       hidden={i18n.resolvedLanguage === code}
                       key={nameLng}
+                      aria-label={`Language ${nameLng}`}
                     >
                       <span
                         className={`flag-icon flag-icon-${countryCode} mx-2`}
