@@ -9,7 +9,7 @@
       $(
         '.' + document.querySelector('#root').firstChild.classList.value
       ).fadeOut();
-    }, 100)
+    }, 500)
 
   });
 })(jQuery);

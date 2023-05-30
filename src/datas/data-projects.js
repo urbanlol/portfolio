@@ -50,7 +50,7 @@ function Projects() {
       extraSmallImageWp: project02_300wp,
       tools: 'html5, css3, javascript, react js',
       gitLink: 'https://github.com/urbanlol/portfolio',
-      demoLink: '',
+      demoLink: 'https://portfolio-sigma-woad-26.vercel.app/',
     },
   ];
 
