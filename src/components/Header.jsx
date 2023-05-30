@@ -77,6 +77,7 @@ function Header() {
               data-toggle="collapse"
               data-target="#navbarSupportedContent"
               aria-expanded="false"
+              aria-label={`SVTDH - ${t('protfolio')} button`}
             >
               <span>
                 <i className="fa fa-bars"></i>
