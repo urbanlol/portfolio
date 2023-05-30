@@ -105,7 +105,7 @@ function Header() {
                     {t('projects-link')}
                   </NavLink>
                 </li>
-                <li className="d-flex align-items-center ml-md-2">
+                <li className="d-flex align-items-center ml-md-2 justify-content-center">
                   {languages.map(({ code, nameLng, countryCode }) => (
                     <button
                       className="lng"
