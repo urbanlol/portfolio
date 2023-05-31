@@ -58,7 +58,9 @@ function Header() {
                 <i className="fa fa-bars"></i>
               </span>
             </button>
-            <Languages />
+            <div className='d-block d-lg-none'>
+              <Languages />
+            </div>
             <div
               className="collapse navbar-collapse main-menu"
               id="navbarSupportedContent"
