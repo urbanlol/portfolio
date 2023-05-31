@@ -22,6 +22,11 @@ function Languages() {
   const [searchParams, setSearchParams] = useSearchParams(location.search);
 
   useEffect(() => {
+    const navbar = document.getElementById('navbarSupportedContent');
+    navbar.addEventListener('click', (e) =>
+      e.currentTarget.classList.remove('show')
+    );
+
     if (!location.search)
       setSearchParams(`?lng=${i18n.language}`, { replace: true });
   }, [location.search, i18n.language, setSearchParams]);
@@ -31,9 +36,9 @@ function Languages() {
     setSearchParams(`?lng=${lng}`, { replace: true });
   };
 
-  return (languages.map(({ code, nameLng, countryCode }) => (
+  return languages.map(({ code, nameLng, countryCode }) => (
     <button
-      className='lng'
+      className="lng"
       onClick={() => changeLanguage(code)}
       hidden={i18n.resolvedLanguage === code}
       key={nameLng}
@@ -41,7 +46,7 @@ function Languages() {
     >
       <span className={`flag-icon flag-icon-${countryCode} mx-2`}></span>
     </button>
-  )));
+  ));
 }
 
 export default Languages;
