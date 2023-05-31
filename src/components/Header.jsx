@@ -1,44 +1,19 @@
-import { NavLink, useSearchParams, useLocation } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import '../components/header.css';
 import styled from 'styled-components';
 import logo from '../images/svtdh-logo.png';
 import logoWp from '../images/svtdh-logo.png?as=webp';
 import { useTranslation } from 'react-i18next';
-import { useEffect } from 'react';
+import Languages from './Languages';
 
 const NavBar = styled.nav`
   background: #121212;
   -webkit-transition: 0.3s;
   transition: 0.3s;
 `;
-const languages = [
-  {
-    code: 'en',
-    nameLng: 'English',
-    countryCode: 'gb',
-  },
-  {
-    code: 'ua',
-    nameLng: 'Ukraine',
-    countryCode: 'ua',
-  },
-];
 
 function Header() {
   const { t, i18n } = useTranslation();
-  const location = useLocation();
-
-  const [searchParams, setSearchParams] = useSearchParams(location.search);
-
-  useEffect(() => {
-    if (!location.search)
-      setSearchParams(`?lng=${i18n.language}`, { replace: true });
-  }, [location.search, i18n.language, setSearchParams]);
-
-  const changeLanguage = (lng) => {
-    i18n.changeLanguage(lng);
-    setSearchParams(`?lng=${lng}`, { replace: true });
-  };
 
   return (
     <>
@@ -72,7 +47,7 @@ function Header() {
               </picture>
             </NavLink>
             <button
-              className="navbar-toggler"
+              className="navbar-toggler ml-auto"
               type="button"
               data-toggle="collapse"
               data-target="#navbarSupportedContent"
@@ -83,6 +58,7 @@ function Header() {
                 <i className="fa fa-bars"></i>
               </span>
             </button>
+            <Languages />
             <div
               className="collapse navbar-collapse main-menu"
               id="navbarSupportedContent"
@@ -106,20 +82,8 @@ function Header() {
                     {t('projects-link')}
                   </NavLink>
                 </li>
-                <li className="d-flex align-items-center ml-md-2 justify-content-center">
-                  {languages.map(({ code, nameLng, countryCode }) => (
-                    <button
-                      className="lng"
-                      onClick={() => changeLanguage(code)}
-                      hidden={i18n.resolvedLanguage === code}
-                      key={nameLng}
-                      aria-label={`Language ${nameLng}`}
-                    >
-                      <span
-                        className={`flag-icon flag-icon-${countryCode} mx-2`}
-                      ></span>
-                    </button>
-                  ))}
+                <li className="d-none align-items-center ml-md-2 justify-content-center d-lg-flex">
+                  <Languages />
                 </li>
               </ul>
             </div>
