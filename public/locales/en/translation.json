@@ -25,6 +25,10 @@
     {
       "title": "My Portfolio (current app)",
       "description": "This is my first project which created with react js. For that I decided to create simple project where I could used next tools: react router, multi language and instruments for SEO."
+    },
+    {
+      "title": "SWAPI",
+      "description": "A little project for work practice with requests. The SWAPI is ideal for these goals. Also was interesting  to do the functions of search and pagination for categories." 
     }
   ],
   "loading": "Loading ..."
