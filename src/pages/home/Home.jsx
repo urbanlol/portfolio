@@ -10,7 +10,7 @@ function Home() {
 
   useEffect(() => {
     const typed = new Typed(el.current, {
-      strings: ['Fronend Developer.'],
+      strings: ['Frontend Developer.'],
       typeSpeed: 100,
       loop: false,
       autoplay: true,
@@ -105,47 +105,50 @@ function Home() {
                 >
                   <div className="skillbar-title">
                     <span>
-                      html 5 <i className="fab fa-html5"></i>
+                      HTML 5 <i className="fab fa-html5"></i>
                     </span>
                   </div>
                   <div className="skillbar-title">
                     <span>
-                      css3 <i className="fab fa-css3"></i>
+                      CSS3 <i className="fab fa-css3"></i>
                     </span>
                   </div>
                   <div className="skillbar-title">
                     <span>
-                      javascript <i className="fab fa-js-square"></i>
+                      JavaScript <i className="fab fa-js-square"></i>
+                    </span>
+                  </div>
+                  <div className="skillbar-title">
+                    <span>TypeScript</span>
+                  </div>
+                  <div className="skillbar-title">
+                    <span>
+                      React JS <i className="fab fa-react"></i>
                     </span>
                   </div>
                   <div className="skillbar-title">
                     <span>
-                      react js <i className="fab fa-react"></i>
+                      GitHub <i className="fab fa-github"></i>
                     </span>
                   </div>
                   <div className="skillbar-title">
                     <span>
-                      github <i className="fab fa-github"></i>
+                      Wordpress <i className="fab fa-wordpress"></i>
                     </span>
                   </div>
                   <div className="skillbar-title">
                     <span>
-                      wordpress <i className="fab fa-wordpress"></i>
+                      Modx <i className="fab fa-modx"></i>
                     </span>
                   </div>
                   <div className="skillbar-title">
-                    <span>
-                      modx <i className="fab fa-modx"></i>
-                    </span>
+                    <span>Photoshop</span>
                   </div>
                   <div className="skillbar-title">
-                    <span>photoshop</span>
+                    <span>Figma</span>
                   </div>
                   <div className="skillbar-title">
-                    <span>figma</span>
-                  </div>
-                  <div className="skillbar-title">
-                    <span>bootstrap</span>
+                    <span>Bootstrap</span>
                   </div>
                 </div>
               </div>
